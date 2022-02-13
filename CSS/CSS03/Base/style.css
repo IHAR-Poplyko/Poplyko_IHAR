@@ -1,0 +1,50 @@
+header
+{
+    margin: 200px;
+}
+.week
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, li
+{
+    list-style: none;
+}
+.week > ul
+{
+    display: flex;
+    justify-content: center;
+}
+.week > ul li a{
+    display: block;
+    background: #ececed;
+    padding: 15px 15px 15px 15px;
+    font-size: 14px;
+    color:#454547;
+    text-transform: uppercase;
+}
+.week > ul li 
+{
+    border: 3px solid #454547;
+} 
+.week li a:hover{
+    background-color: #454547;
+    color:#ffffff;
+    transition: all 0.9s ease;
+}
+.week li ul{
+    position: absolute;
+    min-width: 100px;
+    display: none;
+}
+.week li > ul li{
+    border: 2px solid #b2b3b5;
+}
+.week li > ul li a{
+    padding: 2px;
+    text-transform: none;
+}
+.week li:hover> ul{
+    display: block;
+}
