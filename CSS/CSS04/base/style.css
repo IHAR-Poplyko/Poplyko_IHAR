@@ -1,0 +1,15 @@
+body{
+    height: 10000px;
+    background-color: rgb(236, 165, 193);
+}
+p{
+   text-indent: 30px;
+}
+.link span{
+    position: absolute;
+    opacity: 0;
+    transition: 2s;
+}
+.link:hover span{
+    opacity: 1;
+}
